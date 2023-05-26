@@ -1,32 +1,34 @@
-section#container{
+section#container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 70px 0;
 }
 
-section.cadastro{
+section.cadastro {
     width: 600px;
     max-width: 80%;
     background: #FFF;
-    box-shadow: 0 0 16px rgba(0,0,0, 0.1);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     padding: 20px 20px;
 }
-section.cadastro input{
+
+section.cadastro input {
     width: 100%;
     border: 0;
     border-bottom: 1px solid #CCC;
     padding: 10px;
-    color: #0b396d;
+    color: #000000;
     margin-bottom: 15px;
 }
-section.cadastro input::placeholder{
-    color: #0b396d;
+
+section.cadastro input::placeholder {
+    color: #000000;
 }
 
 
-section.cadastro button{
+section.cadastro button {
     border: 0;
     border-radius: 6px;
     color: white;
@@ -35,14 +37,16 @@ section.cadastro button{
     margin-bottom: 10px;
     font-size: 20px;
 }
-section.cadastro button:hover{
+
+section.cadastro button:hover {
     cursor: pointer;
     opacity: 0.9;
 }
 
-.button-green{
+.button-green {
     background: #63B446;
 }
-.button-red{
+
+.button-red {
     background: #B44646;
 }

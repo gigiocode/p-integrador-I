@@ -1,9 +1,8 @@
-
-main{
+main {
     padding: 0 30px;
 }
 
-section.title{
+section.title {
     display: flex;
     grid-column: span 4;
     justify-content: space-between;
@@ -11,12 +10,13 @@ section.title{
     margin: 20px auto;
 }
 
-section.title h2{
-    color: #0b396d;
+section.title h2 {
+    color: #000000;
     font-weight: 500;
 }
-section.title .button{
-    background: #63B446;
+
+section.title .button {
+    background: #b91515;
     border: 0;
     border-radius: 6px;
     color: white;
@@ -24,26 +24,29 @@ section.title .button{
     font-size: 20px;
     text-decoration: none;
 }
-section.title .button:hover{
+
+section.title .button:hover {
     cursor: pointer;
     opacity: 0.9;
 }
-section.alunos{
+
+section.alunos {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-section.aluno-item{
+section.aluno-item {
     display: flex;
     align-items: center;
     background: #FFF;
-    box-shadow: 0 0 16px rgba(0,0,0,0.1);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     padding: 13px 20px;
     cursor: pointer;
 }
-section.aluno-item span{
+
+section.aluno-item span {
     color: #0b396d;
     font-weight: 500;
 }

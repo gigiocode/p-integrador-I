@@ -13,7 +13,7 @@ aside{
     text-align: center;
 }
 aside h2{
-    color: #0b396d;
+    color: #000000;
     margin: 20px 0px 5px 0px;
     font-weight: 500;
 }
@@ -24,7 +24,7 @@ aside img{
 }
 
 aside button{
-    background: #63B446;
+    background: #b91515;
     border: 0;
     border-radius: 6px;
     color: white;
@@ -37,7 +37,7 @@ aside button:hover{
     opacity: 0.9;
 }
 main h2{
-    color: #0b396d;
+    color: #c50b0b;
     margin: 40px 0 0;
     font-weight: 500;
     grid-column: span 3;
